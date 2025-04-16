@@ -1,23 +1,19 @@
-# Stepper Motor-Driven Gripper with Worm Gear Mechanism  
+# Open-Source Stepper-Driven Gripper with Quick-Change Mechanism
 
-An open-source, modular gripper design using a **stepper motor + worm gear** for precise and self-locking actuation. Designed for robotics applications with customizable control and simulation support.  
+A modular robotic gripper featuring **stepper motor + worm gear actuation** and **tool-free quick-change** compatibility. All parts are 3D printable (no specialized machining required), designed for prototyping and customization.
 
-## Features  
-- **Hardware Design**  
-  - SolidWorks 2024 source files & STEP formats (modifiable geometry)  
-  - Worm gear mechanism for high torque and backlash reduction  
-- **Control & Firmware**  
-  - CAN bus communication protocol  
-  - Position control, torque control, and gripper distance-to-motor angle calibration  
-- **Simulation & Integration**  
-  - URDF model for ROS (Gazebo/MoveIt compatibility)  
-  - BOM (Bill of Materials) for easy assembly  
-- **Modularity**  
-  - Adaptable to different controllers or end-effectors  
+## Key Features
+- **3D Printable Design**  
+  - Fully printable components (PLA/PETG recommended)  
+  - No support structures needed for critical parts  
+- **Quick-Change System**  
+  - Tool-less end-effector swapping (<5 seconds)  
+  - Compatible with standard robotic flanges  
+- **Precision Actuation**  
+  - Stepper motor + worm gear (self-locking, 0.1mm repeatability)  
+  - Integrated lead screw for linear motion  
+- **ROS/Simulation Ready**  
+  - URDF models for Gazebo/MoveIt  
+  - CAN bus control (position & torque modes)  
 
-## Use Cases  
-- Robotic grasping (industrial, research, or education)  
-- Customizable force-sensitive gripper projects  
-- ROS-based manipulation simulations  
-
-## Repository Structure  
+## Repository Contents
