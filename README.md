@@ -22,12 +22,12 @@ A fully 3D-printable robotic gripper featuring **stepper motor + multi-stage wor
   - Torque control (current sensing via load cell)
   - Gripper distance ↔ stepper angle calibration curve
 - **Supported Hardware**:
-  - Arduino (CAN shield) / STM32 (HAL library examples)
+  - STM32 (C, HAL library examples),USB to can tool(python)
 
-### 3. **Simulation** *(ROS Integration)*
+### 3. **Simulation** *(pybullet)*
 - **URDF Model**: 
-  - Gazebo-compatible with friction parameters
-  - MoveIt configuration for motion planning
+  - Gripper jaw symmetrical binding control
+  - The relationship between the contact force and the torque of the joint
 - **BOM (Bill of Materials)**:
   - Printable parts list (filament estimates)
   - Off-the-shelf components (links to suppliers)
