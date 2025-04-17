@@ -1,6 +1,6 @@
 # Open-Source Stepper-Driven 3D Printable Gripper with Quick-Change Mechanism
 
-A fully 3D-printable robotic gripper featuring **stepper motor + multi-stage worm gear actuation** and **tool-free quick-change** capability. Designed for modular robotics applications with simulation-ready resources.
+A fully 3D-printable robotic gripper featuring **stepper motor + multi-stage worm gear actuation** and **tool-free quick-change** capability. Designed for modular robotics applications with simulation-ready resources. You can join a group chat to communicate and learn together: 953154169
 
 ---
 
